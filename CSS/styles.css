@@ -86,3 +86,55 @@ hr {
     align-self: flex-start;
     justify-self: start;
 }
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+}
+
+.map {
+  width: 350px;
+  height: auto;
+  margin: 50px 0 0 50px;
+}
+
+.extra {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pins {
+  width: 25px;
+  height: auto;
+}
+
+.info {
+  list-style-type: none;
+  align-items: center;
+}
+
+.bottom-buttons {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-buttons:hover {
+  background-color: lightgrey;
+}
+
+.b-info {
+  font-size: x-large;
+}
+
+.top-buttons {
+  text-decoration: none;
+  color: white;
+}
+
+.top-buttons:hover {
+  background-color: lightgrey;
+}
